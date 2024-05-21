@@ -6,7 +6,7 @@ const dataSchema = new mongoose.Schema({
     required: true,
   },
 
-  text: {
+  content: {
     type: String,
     required: true,
     unique: true,
